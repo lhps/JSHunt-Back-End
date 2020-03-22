@@ -21,4 +21,6 @@ requireDir('./src/models');
 // Rotas
 app.use('/api', require('./src/routes'));
 
-app.listen(3001);
+server.listen(process.env.PORT || 3000, function() {
+  console.log("API online!");
+});
