@@ -11,7 +11,7 @@ app.use(cors());
 
 // Iniciando o DB
 mongoose.connect(
-  'mongodb://localhost:27017/nodeapi',
+  'mongodb+srv://admin:admin@omnistack-b89wo.mongodb.net/hunt-api?retryWrites=true&w=majority',
    { useNewUrlParser: true,
       useUnifiedTopology: true },
    
